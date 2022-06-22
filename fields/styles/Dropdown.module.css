@@ -1,0 +1,81 @@
+.dropDownBtn{
+    width: 200pt;
+    padding: 14pt;
+    font-size: 14pt;
+    text-align: left;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(214, 212, 212);
+    display: flex;
+    position: relative;
+    margin: 20px;
+
+
+}
+.dropDownBtn a{
+    flex: 1;
+}
+.dropDownBtn i{
+cursor: pointer;        
+}
+.dropInput{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size:14pt ;
+
+}
+.dropInput:disabled{
+    background-color: inherit;
+    color: inherit;
+}
+.dropDownOptions{
+    width: 200pt;
+    background-color: white;
+    border: 1px solid rgb(240, 239, 239);
+    border-radius: 10px;
+    position: absolute;
+    height: 200pt;
+    overflow: scroll;  
+}
+
+.dropDownOptions a{
+    width: 100%;
+    display: block;
+    padding: 10pt;
+    z-index: 1;
+}
+.dropDownOptions a:hover{
+ background-color: rgb(221, 241, 241);
+}
+.groupName{
+    padding: 10pt 0pt;
+    background-color: aquamarine;
+    border-bottom: 1px solid rgb(216, 214, 214);
+    margin-top: 10pt;
+}
+.optionContainer{
+    height: 100%;
+    overflow: scroll;
+}
+.searchContainer{
+    margin-top: 12pt;
+
+}
+.searchBox{
+    width: 180pt;
+    padding: 8pt;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 212, 212);
+    text-align: center;
+}
+#icon{   
+    min-width: 40px;
+    padding: 10px;  
+}
+.searchContainer i {
+    position: absolute;
+}
+.optionsGroup{
+    padding-left: 8pt;
+}
