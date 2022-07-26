@@ -9,8 +9,8 @@ export default function InputText() {
       ></input>
       <div className={styles.inputGroup}>
         <input type="text" required></input>
-        <span class="highlight"></span>
-        <span class="bar"></span>
+        <span className="highlight"></span>
+        <span className="bar"></span>
         <label>Username</label>
       </div>
     </div>
